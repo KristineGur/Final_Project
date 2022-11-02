@@ -1,0 +1,132 @@
+.container {
+  max-width: 1440px;
+  width: 100%;
+  background-color: #f6f8f9;
+}
+
+/*                                        Start Header */
+.header_box {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.header_Div_for_nav_and_img {
+  width: 45%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header_nav {
+  width: 60%;
+}
+
+.header_ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  font-size: 0.688rem;
+  transition: all;
+}
+
+.header_img {
+  width: 1.875rem;
+  height: 1.875rem;
+}
+
+.header_h1 {
+  width: 55%;
+  font-size: 0.813rem;
+  color: #fa6980;
+  animation: logo 1s infinite linear;
+}
+
+@keyframes logo{
+  from {
+    color: #fa6980;
+  }
+  to {
+    color: #f6f8f9;
+  }
+}
+
+.secendary_nav {
+  color: #717477;
+  transition: all;
+}
+
+.secendary_nav:hover {
+  border-bottom: 2px solid #fa6980;
+}
+
+.header_home:hover {
+  border-bottom: 2px solid #fa6980;
+}
+
+/* Start Section First */
+.section1 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.Section1_div1 {
+  width: 60%;
+  height: 37.5rem;
+  background-image: url(../Images/Page_one/Section_one/section1_background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+}
+
+.Sec1_div1_inside_div {
+  width: 70%;
+  margin: 10rem auto;
+  line-height: 1.5rem;
+}
+
+.sec1_div1_h1 {
+  font-size: 1.5rem;
+}
+
+.sec1_div1_h1::after {
+  content: "";
+  display: flex;
+  border: 1px solid white;
+  width: 90%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.sec1_div1_h3 {
+  font-size: 1.5rem;
+}
+
+.sec1_button {
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #fa6980;
+  color: white;
+  font-size: 0.688rem;
+  padding: 0.7rem;
+  margin-top: 3rem;
+  cursor: pointer;
+  transition-property: all;
+}
+
+.sec1_button:hover {
+  background-color: white;
+  border: 1px solid #fa6980;
+  color: #fa6980;
+}
+
+.Section1_div2 {
+  width: 40%;
+}
+
