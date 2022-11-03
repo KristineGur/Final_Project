@@ -70,6 +70,7 @@
   border-bottom: 2px solid #fa6980;
 }
 
+
 /*                                       Start Section First */
 /*                                        Section 1 Div 1 */
 .section1 {
@@ -232,7 +233,7 @@
   letter-spacing: 0.625rem;
 }
 
-/*                                      Section Two */
+/*                                     Start Section Two */
 .section_two {
   display: flex;
   flex-direction: column;
@@ -289,6 +290,7 @@
   margin: 1rem auto;
 }
 
+
 /*                                   Section Three */
 .section_three {
   width: 90%;
@@ -302,7 +304,7 @@
   flex-direction: row;
   justify-content: space-between;
 }
-
+/*                                    Section 3 Div 1*/
 .section3_Div1 {
   width: 65%;
   /* height: 100%; */
@@ -366,7 +368,7 @@
   }
 }
 
-
+/*                                    Section 3 Div 2 */
 .section3_Div2 {
   height: 100%;
   width: 30%;
@@ -407,7 +409,7 @@
   font-weight: bold;
 }
 
-/*                                             Footer */
+/*                                           Start Footer */
 .footer_box {
   width: 100%;
   background-color: #a6adb4;
@@ -468,4 +470,186 @@
 
 .fa-solid {
   color: white;
+}
+
+/*                              P A G E  2: WORLD NEWS */
+.page2_section1 {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.page2_sect1_title_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.page2_sect1_story_world {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.688rem;
+}
+
+.fa-sharp {
+  color: #202124;
+}
+
+.filter_icon {
+  width: 1rem;
+  height: 1rem;
+}
+
+.page2_sect1_h1 {
+  color: #a6adb4;
+}
+
+.image_and_form_div {
+  width: 100%;
+  display: flex;
+}
+
+.image_div {
+  width: 50%;
+  height: 31.25rem;
+  background-image: url("../Images/Page_two/page_two_wordNews_img.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.image_text_div {
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  margin: 10rem auto;
+}
+
+.mans_image {
+  width: 2.5rem;
+  height: 2.5rem;
+}
+
+.image_text_h1 {
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.image_text_h1::after {
+  content: "";
+  display: block;
+  border: 1px solid #fa6980;
+  width: 2.625rem;
+  margin: 1rem auto;
+} 
+
+.form_div {
+  width: 50%;
+  background-color: white;
+}
+
+.form_inside_div {
+  width: 70%;
+  height: 70%;
+  margin: 4rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.labels_n_inputs {
+  width: 100%;
+  height: 19%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.page2_inputs {
+  border: none;
+  width: 100%;
+  height: 2.5rem;
+  border: 1px solid #cbd0d3;
+  border-radius: 0.3rem;
+}
+
+.page2_labels {
+  font-weight: bold;
+}
+
+.form_button {
+  width: 50%;
+  border-radius: 0.5rem;
+  border: none;
+  background-color: #fa6980;
+  color: white;
+  font-size: 0.688rem;
+  padding: 0.7rem;
+  margin-top: 3rem;
+}
+
+/*                                   section second */
+.page2_section2 {
+  width: 90%;
+  margin: 0 auto;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.page2_sect2_main_DIV{
+  width: 100%;
+  border-top: 1px solid #a6adb4;
+  border-bottom: 1px solid #a6adb4;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.page2_sect2_div1 {
+  width: 28%;
+}
+
+.page2_sect2_h1 {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  margin-top: 1rem;
+}
+
+.page2_sect2_p {
+  font-size: 0.875rem;
+  color: #a6adb4;
+  margin-bottom: 1rem;
+}
+
+.page2_section3 {
+  width: 90%;
+  height: 31.25rem;
+  margin: 0 auto;
+  background-image: url("../Images/Page_one/Section_three/section3_img3.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.page2_section4 {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.page2_sect4_p {
+  margin-bottom: 1.5rem;
+}
+
+.page2_section5 {
+  width: 90%;
+  height: 6rem;
+  margin: 0 auto;
+  border-top: 1px solid #a6adb4;
 }
