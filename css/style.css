@@ -81,7 +81,7 @@
 .Section1_div1 {
   width: 60%;
   height: 37.5rem;
-  background-image: url(../Images/Page_one/Section_one/section1_background.png);
+  background-image: url("../Images/Page_one/Section_one/section1_background.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -106,6 +106,18 @@
   width: 90%;
   margin-top: 2rem;
   margin-bottom: 2rem;
+  animation: line 5s linear;
+}
+
+@keyframes line {
+  from{
+    width: 0;
+    border-color: #fa6980;
+  }
+  to{
+    width: 90%;
+    border-color: white;
+  }
 }
 
 .sec1_div1_h3 {
@@ -125,9 +137,19 @@
 }
 
 .sec1_button:hover {
-  background-color: white;
-  border: 1px solid #fa6980;
-  color: #fa6980;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+  animation: button 1s infinite linear;
+}
+
+@keyframes button {
+  from{
+    transform: rotate(0deg);
+  }
+  to{
+    transform: rotate(360deg);
+  }
 }
 
 /*                                        Section 1 Div 2 */
@@ -245,6 +267,12 @@
 .sec2_article {
   width: 25%;
   background-color: white;
+  transition-property: all;
+}
+
+.sec2_article:hover {
+  box-shadow: 0.188rem 0.313rem #fa6980;
+  border-radius: 0.7rem;
 }
 
 .sec2_artic_img {
@@ -323,6 +351,20 @@
   font-weight: bold;
 }
 
+.sect3_animat_h1 {
+  font-weight: bold;
+  animation: sect3h1 1s infinite linear;
+}
+
+@keyframes sect3h1{
+  from {
+    color: #f6f8f9;
+  }
+  to {
+    color: #fa6980;
+    font-weight:lighter;
+  }
+}
 
 
 .section3_Div2 {
@@ -341,6 +383,12 @@
 .section3_articles {
   width: 80%;
   height: 30%;
+  transition-property: all;
+}
+
+.sec3_artic_img:hover{
+  box-shadow: 0.188rem 0.313rem #fa6980;
+  border-radius: 0.7rem;
 }
 
 .sec3_artic_img {
