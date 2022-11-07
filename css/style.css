@@ -343,11 +343,15 @@
 }
 
 .sect3_Div1_img1:hover {
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
+  background-color: #78ced1;
+  background-blend-mode: multiply;
 }
 
 .sect3_Div1_img2:hover {
-  filter: grayscale(100%);
+  /* filter: grayscale(100%); */
+  background-color: #5aafaf;
+  background-blend-mode: multiply;
 }
 
 .sect3_Div1_img_text {
