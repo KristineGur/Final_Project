@@ -15,6 +15,10 @@
   padding: 1rem;
 }
 
+.fa-bars {
+  display: none;
+}
+
 .header_Div_for_nav_and_img {
   width: 45%;
   display: flex;
@@ -879,8 +883,20 @@
 
 
 @media (max-width:375px){
-  .header_Div_for_nav_and_img {
+  .fa-bars {
+    display: flex;
+  }
+
+  .header_nav {
     display: none;
+  }
+
+  .header_img {
+    display: none;
+  }
+
+  .header_Div_for_nav_and_img {
+    justify-content: flex-end;
   }
 
   .Section1_div1 {
