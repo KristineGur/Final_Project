@@ -1,6 +1,6 @@
 let burger = document.querySelector(".fa-bars");
-let Menu = document.querySelector(".header_nav"); 
+let Menu = document.querySelector(".header_ul"); 
 
 burger.addEventListener("click", function(){
-  Menu.classList.toggle("toggle_class");
+  Menu.classList.toggle("active");
 })  
