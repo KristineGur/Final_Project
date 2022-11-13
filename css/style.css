@@ -882,12 +882,12 @@
 
 
 
-.toggle_class{
-  display: none;
-  position: absolute;
-}
 
 @media (max-width:375px){
+  .toggle_class{
+    display: none;
+  }
+  
   .fa-bars {
     display: flex;
     cursor: pointer;
@@ -927,11 +927,16 @@
   .Section1_div1 {
     width: 100%;
     height: 24.25rem;
+    /* position: absolute;
+    top: 48px;
+    z-index: 1; */
   }
   
   .Sec1_div1_inside_div {
     width: 80%;
     margin: 2rem auto;
+    /* position: absolute;
+    z-index: 2; */
   }
   
   .sec1_div1_h1::after {
