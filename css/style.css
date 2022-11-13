@@ -882,14 +882,39 @@
 
 
 
+.toggle_class{
+  display: none;
+  position: absolute;
+}
+
 @media (max-width:375px){
   .fa-bars {
     display: flex;
+    cursor: pointer;
   }
 
   .header_nav {
     display: none;
   }
+
+  .header_ul {
+    width: 100%;
+    position: fixed;
+    top: 48px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #fa6980;
+    z-index: 3;
+  }
+
+  /* .header_home.secendary_nav{
+    margin: 20px auto;
+  } */
+
+  /* .header_ul.toggle_class {
+    left: 0;
+  } */
 
   .header_img {
     display: none;
